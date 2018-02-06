@@ -1,4 +1,4 @@
-package com.jasvirdi;
+package com.jasvirdi.examples.lambdas;
 
 @FunctionalInterface
 interface StringFunc {
@@ -16,7 +16,7 @@ public class LambdaAsArgumentsDemo {
      * @param str
      * @return
      */
-    static String stringOp(StringFunc stringFunc, String str) {
+    private static String stringOp(StringFunc stringFunc, String str) {
         return stringFunc.func(str);
     }
 

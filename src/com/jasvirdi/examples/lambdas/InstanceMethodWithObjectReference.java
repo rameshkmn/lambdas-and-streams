@@ -1,4 +1,4 @@
-package com.jasvirdi;
+package com.jasvirdi.examples.lambdas;
 
 /**
  * Functional interface that takes 2 reference arguments and returns a boolean value
@@ -53,7 +53,7 @@ public class InstanceMethodWithObjectReference {
      * @param <T>
      * @return
      */
-    static <T> int counter(T[] vals, MyFunc<T> myFunc, T v2) {
+    private static <T> int counter(T[] vals, MyFunc<T> myFunc, T v2) {
         int counter = 0;
 
         for (T v1 : vals) {

@@ -1,4 +1,4 @@
-package com.jasvirdi;
+package com.jasvirdi.examples.lambdas;
 
 /**
  * Functional interface with an abstract method which throws custom exception

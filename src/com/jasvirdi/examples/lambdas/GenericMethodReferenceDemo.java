@@ -1,4 +1,4 @@
-package com.jasvirdi;
+package com.jasvirdi.examples.lambdas;
 
 @FunctionalInterface
 interface MyFunction<T> {
@@ -23,7 +23,7 @@ class MyArrayOps {
 
 
 public class GenericMethodReferenceDemo {
-    static <T> int myOps(MyFunction<T> myFunction, T[] vals, T v) {
+    private static <T> int myOps(MyFunction<T> myFunction, T[] vals, T v) {
         return myFunction.func(vals, v);
     }
 

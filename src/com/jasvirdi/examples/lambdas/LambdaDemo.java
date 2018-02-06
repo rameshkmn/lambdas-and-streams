@@ -1,7 +1,7 @@
 /**
  * A Simple Lambda Expression
  */
-package com.jasvirdi;
+package com.jasvirdi.examples.lambdas;
 
 /**
  * A Functional interface
@@ -21,7 +21,7 @@ interface NumericTest {
 
 
 /**
- * A fuctinal interface
+ * A functional interface
  */
 @FunctionalInterface
 interface NumericTest2 {

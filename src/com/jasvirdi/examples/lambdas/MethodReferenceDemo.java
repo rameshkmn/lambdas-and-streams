@@ -1,4 +1,4 @@
-package com.jasvirdi;
+package com.jasvirdi.examples.lambdas;
 
 /**
  * A functional interface for String operators
@@ -43,7 +43,7 @@ class MyStrOps {
  */
 public class MethodReferenceDemo {
 
-    static String stringOp(StrFunction strFunction, String str) {
+    private static String stringOp(StrFunction strFunction, String str) {
         return strFunction.func(str);
     }
 

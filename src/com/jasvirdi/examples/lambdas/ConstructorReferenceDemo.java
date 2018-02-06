@@ -1,4 +1,4 @@
-package com.jasvirdi;
+package com.jasvirdi.examples.lambdas;
 
 @FunctionalInterface
 interface FactoryFunction<R, T> {
@@ -52,7 +52,7 @@ class MyClass2 {
  */
 public class ConstructorReferenceDemo {
 
-    static <R, T> R myClassFactory(FactoryFunction<R, T> cons, T v) {
+    private static <R, T> R myClassFactory(FactoryFunction<R, T> cons, T v) {
         return cons.fun(v);
     }
 
